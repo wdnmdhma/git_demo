@@ -1,6 +1,6 @@
 
 #include<stdio.h>
-//salah1
+//master
 
 void change_arr( const char* arr) //结论在不能改或不用改的变量尽量用 const修饰 (直接让编译器报语法错误)
 {
@@ -17,7 +17,7 @@ int main()
 	//传进去的是一个字符串常量，*arr不可改相当 与 const char* arr ="123456789";
 	change_arr(arr);
 	printf("result = %s\n", arr);
-	printf("salah");
+	printf("master");
 	return 0;
 }
 
