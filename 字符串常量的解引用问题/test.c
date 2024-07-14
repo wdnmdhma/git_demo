@@ -17,7 +17,7 @@ int main()
 	//传进去的是一个字符串常量，*arr不可改相当 与 const char* arr ="123456789";
 	change_arr(arr);
 	printf("result = %s\n", arr);
-	printf("666");
+	printf("salah");
 	return 0;
 }
 
