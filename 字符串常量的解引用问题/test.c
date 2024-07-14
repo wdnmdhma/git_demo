@@ -1,6 +1,6 @@
 
 #include<stdio.h>
-//klopp1
+//salah1
 
 void change_arr( const char* arr) //结论在不能改或不用改的变量尽量用 const修饰 (直接让编译器报语法错误)
 {
